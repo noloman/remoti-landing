@@ -55,7 +55,7 @@ layout: default
 <section class="app__featured app__section container">
   {% if site.data.strings.app.companies!= null %}
   <h2 class="app__section-title">{{ site.data.strings.app.featured }}</h2>
-  { %endif %}
+  {% endif %}
   <div class="app__featured-content">
     {% for company in site.data.app.companies %}
     <a href="{{ company.url }}" target="_blank" class="app__featured-company">
